@@ -1,73 +1,71 @@
 # Process State Visualizer
 
 <p align="center">
-  <strong>An interactive Operating System process-state simulation with live scheduling analytics.</strong>
+  <strong>Interactive OS process-state simulation with live scheduling analytics</strong>
 </p>
 
 <p align="center">
-  🚀 Visual • 🎯 Beginner-friendly • 📊 Metrics-driven • ⚙️ Customizable
+  🎓 Learning-first • ⚡ Real-time transitions • 📊 Insightful metrics • 🎨 Modern UI
+</p>
+
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-feature-highlights">Features</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-project-structure">Structure</a>
 </p>
 
 ## ✨ Overview
-Process State Visualizer is a single-page web app that helps learners understand how an OS process moves through states like NEW, READY, RUNNING, WAITING, and TERMINATED.
+Process State Visualizer is a single-page educational web app for understanding how operating-system processes move across NEW, READY, RUNNING, WAITING, and TERMINATED states.
 
-It combines animated state transitions, scheduler controls, timeline visualization, and per-process statistics in one clean interface.
+It combines process flow visualization, scheduler behavior, timeline playback, and performance metrics in one concise interface.
 
-## 🧩 Key Features
-- 🟦 Live Process Lifecycle lanes (NEW → READY → RUNNING → WAITING → TERMINATED)
-- ⏯️ Manual and automatic simulation controls (Step Forward / Auto Run)
-- 🧹 Quick Clear All action for instant reset
-- 🧪 Custom Process Editor with presets + JSON builder
-- ⚙️ Scheduler support: Round Robin and FCFS
-- ⌛ Adjustable Round Robin quantum
-- 📈 CPU Timeline with process-wise transition slices
-- 📝 Activity Log with readable timestamps
-- 📊 Process Statistics panel (overall + per-process metrics)
-- 👁️ Simple Mode for reduced visual clutter
+## 🚀 Feature Highlights
+- 🧠 Process Lifecycle Board: visual state lanes for NEW, READY, RUNNING, WAITING, and TERMINATED
+- 🎮 Simulation Controls: New Process, Step Forward, Auto Run, and Clear All
+- ⚙️ Scheduling Mode: Round Robin and FCFS, including configurable quantum
+- 🧪 Custom Process Editor: presets + JSON workflow for user-defined transition flows
+- 📈 CPU Timeline: process-wise transition bars with time-step context
+- 📝 Activity Log: live transition history with readable timestamps
+- 📊 Process Statistics: overall metrics plus per-process WT, RT, TAT, and executed slices
+- 👀 Simple Mode: reduced-view mode for cleaner demonstrations
 
-## 🧮 Metrics Included
+## 📊 Metrics Included
 - Average Waiting Time
 - Average Turnaround Time
 - Average Response Time
 - CPU Utilization
 - Throughput
-- Per-process WT / RT / TAT and executed slices
+- Per-process execution and timing breakdown
 
 ## 🛠️ Tech Stack
 - HTML5
 - CSS3
 - Vanilla JavaScript
-- Font Awesome (icons)
-- Google Fonts (Sora + Space Grotesk)
+- Font Awesome icons
+- Google Fonts (Sora and Space Grotesk)
 
-## ▶️ Run Locally
+## ▶️ Quick Start
 1. Open this folder in VS Code.
-2. Open [index.html](index.html) in a browser (or use Live Server).
+2. Launch [index.html](index.html) in your browser, or run with Live Server.
+3. Create a process and step through transitions manually or via Auto Run.
 
-No build step or dependency installation is required.
-
-## 🧭 Quick Usage
-1. Click New Process.
-2. Use Step Forward for manual transitions or Auto Run for continuous simulation.
-3. Expand Advanced Controls for scheduler and speed tuning.
-4. Open Custom Process to define your own transition flow.
-5. Observe CPU Timeline, Activity Log, and Process Statistics.
+No build step or installation is required.
 
 ## ⌨️ Keyboard Shortcuts
-- N: New Process
-- Right Arrow: Step Forward
-- Space: Toggle Auto Run
-- Esc: Close Custom Process modal
+- N: Create new process
+- Right Arrow: Step forward
+- Space: Toggle auto run
+- Esc: Close custom editor modal
 
-## 🌐 GitHub Pages Deployment
-If this repository is connected to GitHub Pages:
-1. Push updates to the default branch.
-2. In GitHub repository settings, enable Pages from the branch root.
-3. Open the generated Pages URL.
+## 🌐 GitHub Pages
+1. Push changes to the default branch.
+2. In repository settings, enable GitHub Pages from branch root.
+3. Open the generated deployment URL.
 
 ## 📂 Project Structure
-- [index.html](index.html): Full application (UI, styling, and logic)
-- [README.md](README.md): Project documentation
+- [index.html](index.html): complete application (UI, style, and logic)
+- [README.md](README.md): project documentation
 
 ## 👩‍💻 Author
 Kashvi Soni
