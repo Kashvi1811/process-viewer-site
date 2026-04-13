@@ -16,9 +16,13 @@
 <p align="center">
   <a href="#-overview">Overview</a> •
   <a href="#-feature-highlights">Features</a> •
+  <a href="#-metrics-included">Metrics</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-keyboard-shortcuts">Shortcuts</a> •
-  <a href="#-project-structure">Structure</a>
+  <a href="#-github-pages">Deployment</a> •
+  <a href="#-project-structure">Structure</a> •
+  <a href="#-contact--collaboration">Contact</a>
 </p>
 
 ## ✨ Overview
